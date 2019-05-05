@@ -17,7 +17,9 @@ class Dog
     @@all.count
   end
   
-  def clear.all
+  def self.clear_all
+    @@all
+  end
+  
   Dog.all
-end
 end
