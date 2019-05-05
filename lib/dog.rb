@@ -14,7 +14,7 @@ class Dog
   maddy=Dog.new("Maddy")
   
   def self.all
-    @@all
+    @@all.count
   end
   
   def clear.all
